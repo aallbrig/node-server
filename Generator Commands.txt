@@ -1,0 +1,42 @@
+AngularJS
+
+1) Install
+npm install -g generator-angular
+2) New App
+mkdir my-new-project && cd $_
+yo angular [app-name]
+3) Generators
+angular (aka angular:app)
+angular:controller
+angular:directive
+angular:filter
+angular:route
+angular:service
+angular:provider
+angular:factory
+angular:value
+angular:constant
+angular:decorator
+angular:view
+4) Route
+yo angular:route myroute
+5) Controller
+yo angular:controller user
+6) Directive
+yo angular:directive myDirective
+7) Filter
+yo angular:filter myFilter
+8) View
+yo angular:view user
+9) Service
+yo angular:service myService
+10) MINSAFE
+--minsafe
+11) Bower
+angular
+angular-mocks
+angular-scenario
+angular-cookies
+angular-loader
+angular-resource
+angular-sanitize
